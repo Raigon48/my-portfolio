@@ -6,11 +6,11 @@ import YoutubeLineIcon from "remixicon-react/YoutubeLineIcon";
 import GithubLineIcon from "remixicon-react/GithubLineIcon";
 
 export const heroIcons = [
-  <InstagramLineIcon />,
-  <FacebookCircleLineIcon />,
-  <DribbbleLineIcon />,
-  <YoutubeLineIcon />,
-  <GithubLineIcon />,
+  // <InstagramLineIcon />,
+  // <FacebookCircleLineIcon />,
+  // <DribbbleLineIcon />,
+  // <YoutubeLineIcon />,
+  // <GithubLineIcon />,
 ];
 
 // AboutMe icons
@@ -23,30 +23,30 @@ export const aboutData = [
   {
     title: "Github Repos",
     amount: 348,
-    icon: <GithubFillIcon />,
+    // icon: <GithubFillIcon />,
   },
   {
     title: "Successful Projects",
     amount: 227,
-    icon: <Projector2LineIcon />,
+    // icon: <Projector2LineIcon />,
   },
   {
     title: "Satisfied clients",
     amount: 176,
-    icon: <GroupLineIcon />,
+    // icon: <GroupLineIcon />,
   },
   {
     title: "Awards and Recognition",
     amount: 107,
-    icon: <AwardFillIcon />,
+    // icon: <AwardFillIcon />,
   },
 ];
 
 import DownloadLineIcon from "remixicon-react/DownloadLineIcon";
 import ArrowLeftSFillIcon from "remixicon-react/ArrowLeftSFillIcon";
 
-export const downloadIcon = <DownloadLineIcon />;
-export const arrowLeftIcon = <ArrowLeftSFillIcon />;
+//export const downloadIcon = <DownloadLineIcon />;
+//export const arrowLeftIcon = <ArrowLeftSFillIcon />;
 
 export const aboutText =
   " Hi, I'm Abhishek, a web developer & designer. I blend the technical  skills of web development with the creative aspects of web design. I code in HTML, CSS, JavaScript, React, NextJS... to build functional and responsive websites, while also using design tools like Photoshop and Figma to create visually appealing and user-friendly  interfaces. My role allows me to ensure that websites not only work well but also look great and provide an excellent user experience.";
@@ -132,7 +132,7 @@ export const skillsData = [
 import CopyrightLineIcon from "remixicon-react/CopyrightLineIcon";
 
 // export const copyRightIcon = <PiCopyrightThin />
-export const copyRightIcon = <CopyrightLineIcon />;
+//export const copyRightIcon = <CopyrightLineIcon />;
 // Experience
 export const experienceData = [
   {
@@ -278,47 +278,47 @@ export const navbarData = [
   {
     id: "home",
     name: "Home",
-    icon: <Home5LineIcon />,
+    // icon: <Home5LineIcon />,
   },
   {
     id: "about",
     name: "About",
-    icon: <UserLineIcon />,
+    // icon: <UserLineIcon />,
   },
   {
     id: "experience",
     name: "MyRoad",
-    icon: <HistoryLineIcon />,
+    // icon: <HistoryLineIcon />,
   },
   {
     id: "skills",
     name: "Skills",
-    icon: <BriefcaseLineIcon />,
+    // icon: <BriefcaseLineIcon />,
   },
   {
     id: "reviews",
     name: "Reviews",
-    icon: <UserStarLineIcon />,
+    // icon: <UserStarLineIcon />,
   },
   {
     id: "projects",
     name: "Projects",
-    icon: <ProjectorLineIcon />,
+    // icon: <ProjectorLineIcon />,
   },
   {
     id: "pricing",
     name: "Pricing",
-    icon: <PriceTag3LineIcon />,
+    // icon: <PriceTag3LineIcon />,
   },
   {
     id: "contact",
     name: "Contact",
-    icon: <ContactsBook2LineIcon />,
+    // icon: <ContactsBook2LineIcon />,
   },
   {
     id: "questions",
     name: "Questions",
-    icon: <QuestionAnswerLineIcon />,
+    // icon: <QuestionAnswerLineIcon />,
   },
 ];
 
@@ -382,7 +382,7 @@ export const questions = [
 ];
 
 import ArrowDropDownLineIcon from "remixicon-react/ArrowDropDownLineIcon";
-export const QuestionArrow = <ArrowDropDownLineIcon />;
+// export const QuestionArrow = <ArrowDropDownLineIcon />;
 
 // Reviews
 
@@ -391,8 +391,8 @@ import StarHalfLineIcon from "remixicon-react/StarHalfLineIcon";
 import ArrowLeftSLineIcon from "remixicon-react/ArrowLeftSLineIcon";
 import ArrowRightSLineIcon from "remixicon-react/ArrowRightSLineIcon";
 
-export const starIcons = [<StarFillIcon />, <StarHalfLineIcon />];
-export const arrowIcons = [<ArrowLeftSLineIcon />, <ArrowRightSLineIcon />];
+// export const starIcons = [<StarFillIcon />, <StarHalfLineIcon />];
+// export const arrowIcons = [<ArrowLeftSLineIcon />, <ArrowRightSLineIcon />];
 
 export const reviewsData = [
   {
@@ -484,11 +484,11 @@ export const pricingPlans = [
 
 import CheckLineIcon from "remixicon-react/CheckLineIcon";
 
-export const checkIcon = <CheckLineIcon />;
+// export const checkIcon = <CheckLineIcon />;
 
 // Toggle
 import MoonFoggyFillIcon from "remixicon-react/MoonFoggyFillIcon";
 import SunFoggyFillIcon from "remixicon-react/SunFoggyFillIcon";
 
-export const sunIcon = <SunFoggyFillIcon />;
-export const moonIcon = <MoonFoggyFillIcon />;
+// export const sunIcon = <SunFoggyFillIcon />;
+// export const moonIcon = <MoonFoggyFillIcon />;
