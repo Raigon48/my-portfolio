@@ -129,11 +129,11 @@ export const skillsData = [
   },
 ];
 
-// import { PiCopyrightThin } from 'react-icons/pi'
+import { PiCopyrightThin } from "react-icons/pi";
 import CopyrightLineIcon from "remixicon-react/CopyrightLineIcon";
 
 // export const copyRightIcon = <PiCopyrightThin />
-//export const copyRightIcon = <CopyrightLineIcon />;
+// export const copyRightIcon = <CopyrightLineIcon />;
 // Experience
 export const experienceData = [
   {
