@@ -24,30 +24,30 @@ export const aboutData = [
   {
     title: "Github Repos",
     amount: 348,
-    // icon: <GithubFillIcon />,
+    icon: <GithubFillIcon />,
   },
   {
     title: "Successful Projects",
     amount: 227,
-    // icon: <Projector2LineIcon />,
+    icon: <Projector2LineIcon />,
   },
   {
     title: "Satisfied clients",
     amount: 176,
-    // icon: <GroupLineIcon />,
+    icon: <GroupLineIcon />,
   },
   {
     title: "Awards and Recognition",
     amount: 107,
-    // icon: <AwardFillIcon />,
+    icon: <AwardFillIcon />,
   },
 ];
 
 import DownloadLineIcon from "remixicon-react/DownloadLineIcon";
 import ArrowLeftSFillIcon from "remixicon-react/ArrowLeftSFillIcon";
 
-//export const downloadIcon = <DownloadLineIcon />;
-//export const arrowLeftIcon = <ArrowLeftSFillIcon />;
+export const downloadIcon = <DownloadLineIcon />;
+export const arrowLeftIcon = <ArrowLeftSFillIcon />;
 
 export const aboutText =
   " Hi, I'm Abhishek, a web developer & designer. I blend the technical  skills of web development with the creative aspects of web design. I code in HTML, CSS, JavaScript, React, NextJS... to build functional and responsive websites, while also using design tools like Photoshop and Figma to create visually appealing and user-friendly  interfaces. My role allows me to ensure that websites not only work well but also look great and provide an excellent user experience.";
