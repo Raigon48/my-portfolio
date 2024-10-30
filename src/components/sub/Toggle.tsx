@@ -8,10 +8,7 @@ interface ToggleProps {
 }
 
 const Toggle = ({ children }: ToggleProps) => {
-  const [darkMode, setDarkMode] = React.useState(
-    reactLocalStorage.get("darkMode") !== undefined &&
-      JSON.parse(reactLocalStorage.get("darkMode"))
-  );
+  const [darkMode, setDarkMode] = React.useState(false);
   const mainRef = useRef<HTMLDivElement>(null);
 
   const addDarkMode = () => {
