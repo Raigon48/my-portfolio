@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
+import Loader from "@/components/sub/Loader";
 import Toggle from "@/components/sub/Toggle";
 import { useEffect, useRef, useState } from "react";
 
@@ -32,6 +33,7 @@ export default function Home() {
   }, []);
   return (
     <>
+      <Loader />
       <Toggle>
         <Navbar id={id} />
         <div ref={compsRef}>
