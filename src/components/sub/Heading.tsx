@@ -6,7 +6,7 @@ interface HeadingProps {
 
 const Heading = ({ text }: HeadingProps) => {
   return (
-    <h1 className='text-xl sm:text-2xl font-bold text-gray-600 mb-14 self-start'>
+    <h1 className='text-xl sm:text-2xl font-bold text-gray-600 dark:text-gray-200 mb-14 self-start'>
       {text}
     </h1>
   );

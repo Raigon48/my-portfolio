@@ -29,12 +29,14 @@ const Achievement = ({ title, amount, children }: AchievementProps) => {
       <span className='text-4xl text-gray-300 lg:text-2xl'>{children}</span>
       <h1 className='flex flex-col gap-y-2'>
         <motion.span
-          className='text-2xl lg:text-xl font-light text-yellow-500'
+          className='text-2xl lg:text-xl font-light text-yellow-500 '
           onViewportEnter={() => count(amount)}
         >
           {number}
         </motion.span>
-        <span className='text-sm tracking-wide text-gray-500'>{title}</span>
+        <span className='text-sm tracking-wide text-gray-500 dark:text-gray-200'>
+          {title}
+        </span>
       </h1>
     </div>
   );

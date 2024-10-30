@@ -33,15 +33,15 @@ const Project = ({ data, index }: ProjectProps) => {
         className='rounded-lg opacity-70'
       />
       <motion.div
-        className='absolute top-0 w-full h-full flex flex-col items-center justify-center gap-y-2 bg-white/95 p-6 rounded-lg'
+        className='absolute top-0 w-full h-full flex flex-col items-center justify-center gap-y-2 bg-white/95 p-6 rounded-lg dark:bg-zinc-700/95'
         initial={{ opacity: 0 }}
         animate={{ opacity: show ? 1 : 0 }}
         hidden={show}
       >
-        <h2 className='font-bold text-lg tracking-wide text-gray-500'>
+        <h2 className='font-bold text-lg tracking-wide text-gray-500 dark:text-gray-100'>
           {data.name}
         </h2>
-        <p className='text-justify text-gray-500 first-letter:pl-2'>
+        <p className='text-justify text-gray-500 first-letter:pl-2 dark:text-gray-200'>
           {data.desc}
         </p>
       </motion.div>

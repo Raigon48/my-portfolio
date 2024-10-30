@@ -17,7 +17,7 @@ const Experience = () => {
   return (
     <div
       id='experience'
-      className='relative py-20 px-96'
+      className='relative py-20'
     >
       <Heading text='Experience & Education' />
       <Image
@@ -25,7 +25,7 @@ const Experience = () => {
         alt='experience and education'
         width={400}
         height={400}
-        className='absolute -top-4 right-96 opacity-70 lg:hidden'
+        className='absolute -top-4 -right-24 opacity-70 lg:hidden'
       />
       <div
         ref={containerRef}
@@ -45,18 +45,18 @@ const Experience = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7, type: "spring", stiffness: 50 }}
-              className='relative flex flex-col gap-y-3 rounded-md border border-red-300 bg-white p-4 tracking-wide sm:text-sm'
+              className='relative flex flex-col gap-y-3 rounded-md border border-red-300 bg-white p-4 tracking-wide sm:text-sm dark:bg-zinc-700'
             >
-              <h1 className='text-xl sm:text-lg font-light text-gray-700'>
+              <h1 className='text-xl sm:text-lg font-light text-gray-700 dark:text-gray-200'>
                 {data.title}
               </h1>
-              <p className='text-gray-800'>
+              <p className='text-gray-800 dark:text-gray-300'>
                 <span className='block font-light'>Education:</span>
                 <span className='block pl-2 font-extralight'>
                   {data.education}
                 </span>
               </p>
-              <div className='text-gray-800'>
+              <div className='text-gray-800 dark:text-gray-300'>
                 <span className='font-light'>Experience:</span>
                 <ul className='pl-2'>
                   {data.experience.map((exp, index) => (
@@ -77,7 +77,7 @@ const Experience = () => {
               </span>
             </motion.div>
             <div
-              className={`w-14 absolute top-20 border border-gray-300 rounded-full aspect-square grid place-items-center text-red-400 font-light z-10 bg-white -translate-y-1/2 ${
+              className={`w-14 absolute top-20 border border-gray-300 rounded-full aspect-square grid place-items-center text-red-400 font-light z-10 bg-white dark:bg-zinc-600 -translate-y-1/2 ${
                 i % 2 === 0
                   ? "left-full -translate-x-1/2 lg:left-1/2"
                   : "right-full translate-x-1/2 lg:right-1/2"
@@ -91,7 +91,7 @@ const Experience = () => {
         <motion.div
           initial={{ scaleY: 0 }}
           style={{ scaleY: scrollY }}
-          className='absolute w-1 h-[95.7%] rounded-full bg-gray-300 origin-top'
+          className='absolute w-1 h-[95.7%] rounded-full bg-gray-300 dark:bg-gray-500 origin-top'
         ></motion.div>
       </div>
     </div>

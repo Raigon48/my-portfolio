@@ -22,7 +22,7 @@ const Skills = () => {
   return (
     <div
       id='skills'
-      className='min-h-screen flex flex-col items-center justify-center gap-y-20 px-96'
+      className='min-h-screen flex flex-col items-center justify-center gap-y-20'
     >
       <Heading text='Skills' />
       <div className='w-full flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6'>
@@ -35,7 +35,7 @@ const Skills = () => {
             whileHover={{ scale: 1.1 }}
             viewport={{ margin: "50px", once: true }}
             key={`skill-${index}`}
-            className='flex items-center justify-center gap-x-3 rounded-xl border border-yellow-500 bg-zinc-200 px-5 py-2 lg:px-2'
+            className='flex items-center justify-center gap-x-3 rounded-xl border border-yellow-500 bg-zinc-200 dark:bg-zinc-600/95 px-5 py-2 lg:px-2'
           >
             <Image
               src={skill.icon}
@@ -44,7 +44,9 @@ const Skills = () => {
               height={100}
               className='h-auto w-[40px]'
             />
-            <p className='text-sm text-gray-600 '>{skill.name}</p>
+            <p className='text-sm text-gray-600 dark:text-gray-200'>
+              {skill.name}
+            </p>
           </motion.div>
         ))}
       </div>
