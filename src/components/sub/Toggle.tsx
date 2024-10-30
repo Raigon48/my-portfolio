@@ -37,7 +37,6 @@ const Toggle = ({ children }: ToggleProps) => {
         <div className='max-x-[120px] xl:w-full mx-auto flex justify-center px-96 xl:px-96 sm:pl-[80px] sm:pr-5 overflow-hidden'>
           <button
             onClick={() => {
-              console.log(darkMode);
               if (darkMode) {
                 removeDarkMode();
                 window && reactLocalStorage.set("darkMode", false);
@@ -45,7 +44,6 @@ const Toggle = ({ children }: ToggleProps) => {
                 addDarkMode();
                 window && reactLocalStorage.set("darkMode", true);
               }
-              console.log(darkMode);
             }}
             className='fixed right-14 sm:right-10 top-10 text-yellow-600 hover:text-yellow-400'
           >
