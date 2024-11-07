@@ -2,6 +2,7 @@
 
 import { heroIcons } from "@/assets";
 import { useMotionValue, useTransform, motion, useSpring } from "framer-motion";
+import Image from "next/image";
 import React, { useState } from "react";
 
 const Hero = () => {
@@ -59,8 +60,8 @@ const Hero = () => {
               transition: "0.1s",
             }}
           >
-            <img
-              src={"/person.png"}
+            <Image
+              src={"person.png"}
               alt='Person Image'
               width={400}
               height={400}

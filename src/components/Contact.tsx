@@ -22,7 +22,7 @@ const Contact = () => {
           }}
         >
           <Image
-            src={"/contact.gif"}
+            src={"contact.gif"}
             alt='contact'
             width={400}
             height={400}

@@ -16,7 +16,7 @@ const Loader = () => {
       className='w-full h-full fixed left-0 top-0 flex items-center justify-center bg-gradient-to-t from-yellow-50 to-red-50 z-50'
     >
       <Image
-        src='/spinner.gif'
+        src='spinner.gif'
         alt='loader'
         unoptimized
         width={70}
