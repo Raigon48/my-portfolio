@@ -2,7 +2,6 @@
 
 import { heroIcons } from "@/assets";
 import { useMotionValue, useTransform, motion, useSpring } from "framer-motion";
-import Image from "next/image";
 import React, { useState } from "react";
 
 const Hero = () => {
