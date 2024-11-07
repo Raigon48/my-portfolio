@@ -44,7 +44,7 @@ const Navbar = ({ id }: NavbarProps) => {
             >
               {item.name}
             </span>
-          </a>
+          </Link>
         ))}
       </div>
       <p className='flex items-center justify-center text-[13px] text-gray-500 dark:text-gray-200 mt-6'>
