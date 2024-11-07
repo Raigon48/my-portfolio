@@ -39,10 +39,14 @@ const Toggle = ({ children }: ToggleProps) => {
             onClick={() => {
               if (darkMode) {
                 removeDarkMode();
-                window && reactLocalStorage.set("darkMode", false);
+                if (window) {
+                  reactLocalStorage.set("darkMode", false);
+                }
               } else {
                 addDarkMode();
-                window && reactLocalStorage.set("darkMode", true);
+                if (window) {
+                  reactLocalStorage.set("darkMode", true);
+                }
               }
             }}
             className='fixed right-14 sm:right-10 top-10 text-yellow-600 hover:text-yellow-400'

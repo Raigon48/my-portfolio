@@ -2,16 +2,12 @@
 import React from "react";
 import InstagramLineIcon from "remixicon-react/InstagramLineIcon";
 import FacebookCircleLineIcon from "remixicon-react/FacebookCircleLineIcon";
-import DribbbleLineIcon from "remixicon-react/DribbbleLineIcon";
-import YoutubeLineIcon from "remixicon-react/YoutubeLineIcon";
 import GithubLineIcon from "remixicon-react/GithubLineIcon";
 
 export const heroIcons: JSX.Element[] = [
-  <InstagramLineIcon />,
-  <FacebookCircleLineIcon />,
-  <DribbbleLineIcon />,
-  <YoutubeLineIcon />,
-  <GithubLineIcon />,
+  <InstagramLineIcon key={"instagram"} />,
+  <FacebookCircleLineIcon key={"facebook"} />,
+  <GithubLineIcon key={"github"} />,
 ];
 
 // AboutMe icons
@@ -129,7 +125,6 @@ export const skillsData = [
   },
 ];
 
-import { PiCopyrightThin } from "react-icons/pi";
 import CopyrightLineIcon from "remixicon-react/CopyrightLineIcon";
 
 // export const copyRightIcon = <PiCopyrightThin />
@@ -269,11 +264,8 @@ import Home5LineIcon from "remixicon-react/Home5LineIcon";
 import UserLineIcon from "remixicon-react/UserLineIcon";
 import HistoryLineIcon from "remixicon-react/HistoryLineIcon";
 import BriefcaseLineIcon from "remixicon-react/BriefcaseLineIcon";
-import UserStarLineIcon from "remixicon-react/UserStarLineIcon";
 import ProjectorLineIcon from "remixicon-react/ProjectorLineIcon";
-import PriceTag3LineIcon from "remixicon-react/PriceTag3LineIcon";
 import ContactsBook2LineIcon from "remixicon-react/ContactsBook2LineIcon";
-import QuestionAnswerLineIcon from "remixicon-react/QuestionAnswerLineIcon";
 
 export const navbarData = [
   {
@@ -308,19 +300,6 @@ export const navbarData = [
     icon: <ContactsBook2LineIcon />,
   },
 ];
-
-import ArrowDropDownLineIcon from "remixicon-react/ArrowDropDownLineIcon";
-// export const QuestionArrow = <ArrowDropDownLineIcon />;
-
-// Reviews
-
-import StarFillIcon from "remixicon-react/StarFillIcon";
-import StarHalfLineIcon from "remixicon-react/StarHalfLineIcon";
-import ArrowLeftSLineIcon from "remixicon-react/ArrowLeftSLineIcon";
-import ArrowRightSLineIcon from "remixicon-react/ArrowRightSLineIcon";
-
-// export const starIcons = [<StarFillIcon />, <StarHalfLineIcon />];
-// export const arrowIcons = [<ArrowLeftSLineIcon />, <ArrowRightSLineIcon />];
 
 import CheckLineIcon from "remixicon-react/CheckLineIcon";
 

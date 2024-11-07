@@ -6,7 +6,6 @@ import Project from "./sub/Project";
 import { projectsButton, projectsData } from "@/assets";
 
 const Projects = () => {
-  const [tech, setTech] = useState("All");
   const [techIndex, setTechIndex] = useState(0);
   const prevIndex = useRef(0);
   const buttonsRef = useRef<HTMLButtonElement[]>([]);
@@ -35,7 +34,7 @@ const Projects = () => {
               scale: index === 0 ? 1.2 : 1,
             }}
             ref={(el) => {
-              el && buttonsRef.current.push(el);
+              if (el) buttonsRef.current.push(el);
             }}
             onClick={() => setTechIndex(index)}
             key={`tech-${index}`}

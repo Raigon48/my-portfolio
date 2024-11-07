@@ -1,5 +1,6 @@
 "use client";
 import { navbarData, copyRightIcon } from "@/assets";
+import Link from "next/link";
 import React from "react";
 
 interface NavbarProps {
@@ -9,7 +10,7 @@ interface NavbarProps {
 const Navbar = ({ id }: NavbarProps) => {
   return (
     <div className='z-10 w-[70px] h-full fixed left-0 top-0 flex flex-col justify-between border-r border-gray-200 px-4 py-10'>
-      <a
+      <Link
         href='/#home'
         className='dark:text-gray-200'
       >
@@ -17,7 +18,7 @@ const Navbar = ({ id }: NavbarProps) => {
         <span className='block w-min rotate-90 origin-bottom-right text-[12px] font-semibold dark:text-gray-200'>
           Rai
         </span>
-      </a>
+      </Link>
       <div className='flex flex-col gap-y-3 sm:gap-y-2'>
         {navbarData.map((item, i) => (
           <a
