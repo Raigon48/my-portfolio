@@ -3,6 +3,7 @@
 import { heroIcons } from "@/assets";
 import { useMotionValue, useTransform, motion, useSpring } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Hero = () => {
@@ -89,23 +90,23 @@ const Hero = () => {
         </div>
         <div className='mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600 sm:text-2xl'>
           {heroIcons.map((icon, index) => (
-            <a
+            <Link
               href='#'
               key={index}
               className='rounded-lg hover:bg-red-400 hover:text-white transition-colors'
             >
               {icon}
-            </a>
+            </Link>
           ))}
         </div>
-        <a
+        <Link
           href='#'
           className='mt-7 block w-max rounded-lg bg-red-400 px-3 py-1 font-light capitalize tracking-wider mx-auto text-white hover:bg-red-500 transition-colors'
           onMouseEnter={() => setButtonHover(true)}
           onMouseLeave={() => setButtonHover(false)}
         >
           Talk to me
-        </a>
+        </Link>
       </div>
     </div>
   );

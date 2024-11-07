@@ -21,7 +21,7 @@ const Navbar = ({ id }: NavbarProps) => {
       </Link>
       <div className='flex flex-col gap-y-3 sm:gap-y-2'>
         {navbarData.map((item, i) => (
-          <a
+          <Link
             key={i}
             href={`/#${item.id}`}
             className='group flex flex-col items-center gap-y-2'

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Heading from "./sub/Heading";
 import Achievement from "./sub/Achievement";
 import { aboutData, aboutText, downloadIcon, arrowLeftIcon } from "@/assets";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -27,14 +28,14 @@ const About = () => {
           <p className='text-lg font-light text-gray-700 dark:text-gray-200 first-letter:pl-3 lg:text-[16px] sm:text-[14px]'>
             {aboutText}
           </p>
-          <a
+          <Link
             href='/abhishek-resume.pdf'
             download=''
             className='w-max flex items-center gap-x-2 mt-6 rounded-full border border-gray-300 bg-red-400 px-3 py-2 font-light text-white hover:bg-red-500'
           >
             <span>Download Résumé</span>
             <span className='text-xl'>{downloadIcon}</span>
-          </a>
+          </Link>
         </div>
       </div>
       <div className='mt-20 w-full flex flex-wrap items-center justify-between gap-x-7 gap-y-10'>
